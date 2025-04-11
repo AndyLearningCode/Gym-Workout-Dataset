@@ -1,0 +1,56 @@
+---
+title: "STAT306 GROUP G16:Workout Analysis"
+author: "Andy, Arya Sardesai, Jaden, Seif" 
+format: html
+---
+
+# 1. Introduction
+
+## 1.1 The Data
+The dataset that we used in our analysis is the *Gym Members Exercise Tracking* dataset, which was originally published on Kaggle by user @valakhorasani. It contains 973 observations, each representing an individual workout session performed by a gym member. The data includes both demographic and physiological information about the participants, along with specific details about their workouts. All values are complete, with no missing entries.
+
+The variables recorded in the dataset are as follows:
+
+**Response variable:**  
+- `Calories_Burned`: Total calories burned during a workout session (continuous).
+
+**Explanatory variables of primary interest:**  
+- `Workout_Type`: Type of workout performed, categorized as 'Cardio', 'Strength', 'Yoga', or 'HIIT' (categorical).  
+- `Session_Duration (hours)`: Duration of the workout session, measured in hours (continuous).
+
+**Other variables recorded in the dataset:**  
+- `Age`: Age of the gym member (continuous).  
+- `Gender`: Gender of the gym member, 'Male' or 'Female' (binary categorical).  
+- `Weight (kg)`: Body weight of the member in kilograms (continuous).  
+- `Height (m)`: Height of the member in meters (continuous).  
+- `BMI`: Body Mass Index, derived from height and weight (continuous).  
+- `Fat_Percentage`: Body fat percentage (continuous).  
+- `Water_Intake (liters)`: Water consumed during the day of the workout (continuous).  
+- `Workout_Frequency (days/week)`: Average number of workout sessions per week (discrete).  
+- `Experience_Level`: Fitness experience coded as 1 (Beginner), 2 (Intermediate), or 3 (Expert) (ordinal categorical).  
+- `Max_BPM`: Maximum heart rate recorded during the session (continuous).  
+- `Avg_BPM`: Average heart rate during the session (continuous).  
+- `Resting_BPM`: Resting heart rate before the session began (continuous).
+
+All variables are numerically encoded or categorized in a clean and interpretable format, making the dataset well-suited for exploratory and statistical analysis.
+
+## 1.2 Motivation & Research Question
+
+In recent years, insights from measuring data has become increasingly influential in the world of fitness and health. Things like wearable fitness tracker, gym apps, macro trackers, smart workout equipment, both casual and experienced gym-goers are able to monitor a wide array of metrics during their workout sessions.As university students who are regularly involved in gym workouts and recreational activities, we were naturally interested in understanding how the effectiveness of a workout session can vary based on factors like the type of workout and how long the session lasts. Many gym-goers, especially those with time constraints, often wonder: *How do different workouts compare in terms of calories burned?* and *Does working out longer always mean burning more calories?* This dataset provides a way to explore such questions using real-world observations.
+
+From a statistical perspective, this project allows us to apply data analysis techniques to a highly practical scenario involving health and fitness — a field of growing interest in the data science community. The variables in the dataset provide opportunities to investigate both individual effects and potential interactions between factors like session duration and workout type.
+
+This leads us to our research question:  
+**How are workout type and session duration related to the calories burned?**
+
+By conducting exploratory visualizations and fitting statistical models, we aim to uncover whether certain types of workouts are more efficient than others, and whether the relationship between duration and calories burned differs across these types.
+
+# 2. Analysis
+## 2.1 Exploratory Data Analysis(EDA)
+
+## 2.2 Statistical Modeling
+
+# 3. Conclusion
+
+# References
+- Kaggle. *Gym Members Exercise Tracking Dataset*. https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset  
